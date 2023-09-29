@@ -1,0 +1,91 @@
+body {
+    background-image: url("https://static.dezeen.com/uploads/2021/07/harvey-house_madison-wisconsin_restaurant-interior_home-studios_dezeen_2364_col_15.jpg");
+    background-size: cover;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.25rem;
+    background-color: #100f0f;
+    border-bottom: 1px solid #080808;
+    opacity: 0.6;
+}
+
+.restaurant-name {
+    color: white;
+    font-family: 'Tangerine', cursive;
+    font-size: 4rem;
+}
+
+.restaurant-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 2rem;
+}
+
+.nav-link:hover {
+    text-decoration-line: underline;
+}
+
+.home-information {
+    color: white;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* padding: 1.25rem; */
+    opacity: 0.9;
+    background-color: #100f0f;
+    /* border: 15px solid yellow; */
+    font-size: 1.25rem;
+}
+
+.showing {
+    visibility: visible;
+}
+
+.hiding {
+    visibility: hidden;
+}
+
+
+/* display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+padding: 1.25rem;
+background-color: #100f0f;
+border-bottom: 1px solid #080808;
+opacity: 0.6; */
