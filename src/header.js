@@ -19,7 +19,7 @@ const Header = () => {
     // navEl.textContent = "HELLO";
 
     const homeEl = document.createElement("a");
-    homeEl.href = "#home";
+    // homeEl.href = "#home";
     homeEl.textContent = "Home";
     homeEl.classList.add("nav-link");
     homeEl.classList.add("home-nav")
@@ -55,7 +55,7 @@ const Header = () => {
     // })
 
     const menuEl = document.createElement("a");
-    menuEl.href = "#menu";
+    // menuEl.href = "#menu";
     menuEl.textContent = "Menu";
     menuEl.classList.add("nav-link");
     menuEl.classList.add("menu-nav")
@@ -72,7 +72,7 @@ const Header = () => {
     // })
 
     const contactEl = document.createElement("a");
-    contactEl.href = "#contact";
+    // contactEl.href = "#contact";
     contactEl.textContent = "Contact";
     contactEl.classList.add("nav-link");
     contactEl.classList.add("contact-nav")
