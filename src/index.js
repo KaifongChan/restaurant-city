@@ -1,9 +1,10 @@
-import pageLoad from "./pageLoad";
-import Home from "./home";
-import Header from "./header";
-import Menu from "./menu";
 
-// pageLoad();
+import Header from "./header";
+import Content from "./content";
+import HomeNew from "./homeNew";
+
+
+
 Header();
-Home();
-Menu();
+Content();
+// HomeNew();
