@@ -12,14 +12,16 @@ const Content = () => {
     container.appendChild(contentContainer);
 
     let homeEl = document.querySelector(".home-nav");
-    homeEl.addEventListener('click', () => {
+    homeEl.addEventListener('click', (e) => {
+        e.preventDefault();
         HomeNew();
         console.log("STARTED HOMENEW");
     });
 
 
     let menuEl = document.querySelector(".menu-nav");
-    menuEl.addEventListener('click', () => {
+    menuEl.addEventListener('click', (e) => {
+        e.preventDefault();
         MenuNew();
         console.log("STARTED MENUNEW");
     });
